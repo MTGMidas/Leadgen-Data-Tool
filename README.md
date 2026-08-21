@@ -105,11 +105,9 @@ Roadmap
 [ ] Offizielle APIs als Alternative zum Scraping
 
 
-Was ich dabei gelernt habe
+Was ich bisher dabei gelernt habe
 
 Die größte Herausforderung war definitiv das Webscraping.
-Obwohl das ganze Projekt unfassbar viel Spaß in der Planung und Nutzung machte, war es erstaunlich ungewohnt den Logikwechsel in den Datenbezug aus TS, JS, CSS, HTML usw
-vollständig zu greifen um die entsprechenden Daten auch wiederverwertbar und zuverlässig zu beziehen.
-Da es sich um einen ProofOfConcept und ein reines Lernprojekt handelt, mit dem ich ein Real-World-Problem angehen wollte, welches viele Ads-Professionals tatsächlich tagtäglich haben, entschied ich mich dazu meine eigenen Ressourcen zu schonen und umzudenken. Letztlich ist es sogar gelungen, das Modell kostenlos laufen zu lassen!
-Beim nächsten Mal, würde ich die Daten zusätzlich in Excel Tabellen speichern und automatisiertes Data Warehousing zu betreiben, welches über einen Index und in den Grundfunktionen über eine Hashmap in der Anwendung beschleunigt werden könnte. So ließe sich ein Fundament bauen um Trends und Marktentwicklungen zu bemessen.
-
+Genauer gesagt das DOM-Parsing und der damit einhergehende Datenbezug.
+Da es sich um einen ProofOfConcept und ein reines Lernprojekt handelt, mit dem ich ein Real-World-Problem angehen wollte, welches viele Ads-Professionals tatsächlich tagtäglich haben, entschied ich mich dazu meine eigenen Ressourcen zu schonen und umzudenken. Somit wurde anstatt offizielle, kostenpflichtige APIs zu nutzen, die Entscheidung zum Playwright-Scraping getroffen. Im Vordergrund des Lernziels steht für mich die Architektur selbst zu lernen und die Lösung kostenfrei lauffähig zu halten. PoC vor Skalierung also.
+Beim nächsten Mal, würde ich die Daten zusätzlich in einer Excel (Datawarehouse)Tabelle ablegen anstatt sie bei jeder Nutzung zu überschreiben (upsert->append), einen In-Memory-Cache (Dict/Redis) für häufig abgefragte Leads nutzen und Trend-Analysen über Ranking- und Tracking-Veränderungen pro Lead aufbauen. Das würde zeigen, wer gerade digital durchstartet und es liessen sich zeitliche Trends erfassen.
