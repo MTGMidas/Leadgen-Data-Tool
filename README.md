@@ -6,8 +6,10 @@
 > Automatisierte Pipeline, die lokale Unternehmen anhand ihrer Google-Sichtbarkeit und ihres Marketing-Tracking-Setups bewertet und priorisierte Lead-Listen für die Neukundenansprache erstellt. Proof Of Concept Tool von Dominik-Kay Hantusch zum Lösen eines Realworldproblems übers Data Engineering und automatisierter Data Analytic.
 
 Das Problem
+
 Viele lokale Unternehmen (Handwerker, Ärzte, Dienstleister) schalten Google Ads, ohne Conversion-Tracking eingerichtet zu haben – sie verbrennen Werbebudget, ohne es zu merken. Andere haben starken SEO-Beratungsbedarf, sind aber online kaum sichtbar. Diese Kandidaten manuell zu finden ist mühsam.
 Diese Pipeline automatisiert genau das: Sie durchsucht Google Maps nach Unternehmen in einer Nische/Region, prüft organische Sichtbarkeit und technisches Tracking-Setup und berechnet daraus einen priorisierten Score, der zeigt, wer am dringendsten – und lohnendsten – für eine Ansprache ist.
+
 
 Funktionsweise
 ```mermaid
